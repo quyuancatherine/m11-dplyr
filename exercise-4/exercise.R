@@ -43,10 +43,14 @@ mean(seatac$time.gained, na.rm = TRUE)
 ### Bonus ###
 # Write a function that allows you to specify an origin, a destination, and a column of interest
 # that returns a data.frame of flights from the origin to the destination and only the column of interest
+<<<<<<< HEAD
 ## Hint: see slides on standard evaluation
 get.needed.info <- function(my.origin, my.dest, my.interest) {
   return(filter(flights, origin == my.origin, dest == my.dest) %>% select_(my.interest))
 }
+=======
+## Hint: see chapter 11 section on standard evaluation
+>>>>>>> 9fda7081c3f0780c9b034b98bd91de45322f552f
 
 
 # Retireve the air_time column for flights from JFK to SEA
